@@ -1,0 +1,6 @@
+.input-box {
+  flex: 1;
+  padding: 6px 8px;
+  border: 1px solid #000;
+  outline: none;
+}

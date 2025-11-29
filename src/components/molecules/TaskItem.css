@@ -1,0 +1,23 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000;
+  background-color: #fff;
+  padding: 4px 6px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.task-item input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.task-text {
+  flex: 1;
+  font-size: 14px;
+}
+
+/* estilo visual para tareas completadas */
+.task-item.completed .task-text {
+  text-decoration: line-through;
+}
